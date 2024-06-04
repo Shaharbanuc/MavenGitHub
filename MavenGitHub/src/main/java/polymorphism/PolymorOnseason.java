@@ -15,9 +15,13 @@ public class PolymorOnseason extends PolymorOffseason {
 		total=rate-(rate*0.15f);
 		System.out.println("The bill amount is "+total);
 		}
-		else
+		else if(i==2)
 		{
 			super.discount();
+		}
+		else
+		{
+			System.out.println("invalid entry");
 		}
 	}
 
